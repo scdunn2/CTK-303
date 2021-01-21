@@ -1,0 +1,157 @@
+body {
+  background-color: #FCD5CE;
+}
+
+main {
+  background-color: #F8EDEB;
+  width: 90%;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #666;
+}
+
+h1 {
+  font-family: 'Fraunces', serif;
+  color: #FC654A;
+  font-size: 40px;
+  margin-left:40px;
+}
+
+#sec2 {
+  background-color: #FFD7BA;
+  padding: 20px;
+}
+
+h2 {
+  font-family: 'Fraunces', serif;
+  color: #FC654A;
+  padding-left: 20px
+}
+
+h3 {
+  font-family: 'Fraunces', serif;
+  color: #F27202;
+  padding-left: 20px
+}
+
+p {
+  font-family: 'Fraunces', serif;
+  weight: 400;
+  color: #791402;
+}
+
+nav ul {
+  list-style-type: none;
+  float: right;
+  margin-right: 50px;
+}
+
+nav ul li{
+font-family: 'Fraunces', serif;
+weight: 400;
+font-size: 20px;
+display:inline-block;
+}
+
+a{
+  padding: 5px 8px;
+  text-decoration:none;
+  color: #F27202;
+  background-color: #FEC89A;
+  border-radius: 10px;
+}
+
+a:hover{
+    color: #A24C01;
+    background-color: #FE9D48;
+}
+
+#baby {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding:20px
+}
+
+#baby p{
+  display: block;
+  background-color: #FC654A;
+  padding: 5px 10px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#baby img{
+  width: 600px;
+}
+
+#starsign {
+  padding:20px;
+  display: inline-block;
+}
+#starsign img{
+  height: 100px;
+  float:left;
+  padding-right: 30px;
+}
+
+
+footer {
+  padding: 50px;
+  font-family: 'Fraunces', serif;
+  weight: 400;
+  color: #791402;
+  text-align: center;
+}
+
+
+/* ----------------------------About Me-----------------------------*/
+
+.me {
+  width:300px;
+  float:left;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.aboutme {
+  font-family: 'Fraunces', serif;
+  font-size:20px;
+  weight: 400;
+  width: 800px;
+  padding-top: 50px;
+}
+
+#secabout {
+  background-color: #F8EDEB;
+  width: 90%;
+  margin-left:auto;
+  margin-right:auto;
+  padding-bottom: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #666;
+}
+
+.game {
+  height: 150px;
+}
+
+.grid {
+  padding:20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #FFD7BA;
+}
+
+.item img {
+  width: 300px;
+}
+
+.work {
+  margin: 50px;
+  text-align:center;
+}
